@@ -1,7 +1,7 @@
 var stat = require('../lib/main');
 
 exports.testmean = function(test) {
-  stat.mean([1,4,5,6,9], function(result) {
+  stat.mean([1,4,5,6,29], function(result) {
     test.equal(result, 5, "univariate mean should be 5");
     test.done();
   });
