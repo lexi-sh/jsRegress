@@ -13,3 +13,10 @@ exports["test mean empty array"] = function(test) {
     test.done();
   });
 };
+
+exports["std test"] = function(test) {
+  stat.std([3, 5, 2, 4.3, 19, 333, 5, 10, 0], function(result) {
+    test.ok(result - 109.13127 < 0.001, "result is not within the acceptable epsilon");
+    test.done();
+  });
+};
