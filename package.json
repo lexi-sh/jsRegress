@@ -1,0 +1,31 @@
+{
+  "name": "jsregress",
+  "version": "0.0.0",
+  "description": "Javascript statistical library",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjqed/jsRegress.git"
+  },
+  "keywords": [
+    "statistics",
+    "regression",
+    "mean",
+    "average",
+    "node"
+  ],
+  "author": "Chris Jones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjqed/jsRegress/issues"
+  },
+  "devDependencies": {
+   "nodeunit": ""
+ }
+}
