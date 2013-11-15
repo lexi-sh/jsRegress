@@ -26,6 +26,7 @@
     "url": "https://github.com/cjqed/jsRegress/issues"
   },
   "dependencies": {
-   "nodeunit": ""
+   "nodeunit": "",
+   "async": ""
  }
 }
