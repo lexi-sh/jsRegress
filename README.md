@@ -1,13 +1,21 @@
 #jsRegress [![Build Status](https://travis-ci.org/cjqed/jsRegress.png?branch=master)](https://travis-ci.org/cjqed/jsRegress)
 
-jsRegress is a statistics library for node.js. 
+jsRegress is a statistics library for node.js.
+
+##Currently working
+* Univariate statistics
+    * Mean
+    * Standard deviation
+* ANOVA
+    * Completely randomized design
+
 
 ##Planned features
 
 * Univariate statistics
 * Multivariate statistics
 * Regression
-* ANOVA
+* More ANOVA
 * Non-parametric statistics
 * Categorical Data Analysis
 
