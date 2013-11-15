@@ -1,4 +1,4 @@
-#jsRegress
+#jsRegress [![Build Status](https://travis-ci.org/cjqed/jsRegress.png?branch=master)](https://travis-ci.org/cjqed/jsRegress)
 
 jsRegress is a statistics library for node.js. 
 
