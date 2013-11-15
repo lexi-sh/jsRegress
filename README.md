@@ -7,7 +7,7 @@ jsRegress is a statistics library for node.js.
     * Mean
     * Standard deviation
 * ANOVA
-    * Completely randomized design
+    * [Completely randomized design](https://github.com/cjqed/jsRegress/wiki/Anova---Completely-Randomized-Design)
 
 
 ##Planned features
