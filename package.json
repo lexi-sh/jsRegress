@@ -27,6 +27,7 @@
   },
   "dependencies": {
    "nodeunit": "",
-   "async": ""
+   "async": "",
+   "numeric": ""
  }
 }
