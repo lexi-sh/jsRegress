@@ -10,8 +10,6 @@ exports['mann whitney U'] = function(test) {
   };
   stat.nonparam(opts, function(retObj) {
     test.ok(retObj.U - 48.5 < 0.00001);
-    test.equal(retObj.N1,9);
-    test.equal(retObj.N2,8);
     test.done();
   });
 };
