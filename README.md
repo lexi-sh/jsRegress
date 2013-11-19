@@ -2,7 +2,7 @@
 
 jsRegress is a statistics library for node.js. Still very much under development. All working features tested for accuracy.
 
-`npm install jsRegress`
+`npm install jsregress`
 
 ##Currently working
 * [Univariate statistics](https://github.com/cjqed/jsRegress/wiki/Univariate)
