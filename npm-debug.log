@@ -1,0 +1,153 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /root/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz
+13 verbose folder .
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /root/.npm/1f1177db-tar.lock
+16 silly lockFile 854ece71-98880-0-1998160774819553-tmp-tgz tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz
+17 verbose lock tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz /root/.npm/854ece71-98880-0-1998160774819553-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 854ece71-98880-0-1998160774819553-tmp-tgz tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz
+21 silly lockFile 854ece71-98880-0-1998160774819553-tmp-tgz tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz
+22 verbose tar unpack /root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz
+23 silly lockFile 7718cee4-98880-0-1998160774819553-package tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/package
+24 verbose lock tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/package /root/.npm/7718cee4-98880-0-1998160774819553-package.lock
+25 silly lockFile 854ece71-98880-0-1998160774819553-tmp-tgz tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz
+26 verbose lock tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz /root/.npm/854ece71-98880-0-1998160774819553-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry test.js
+32 silly gunzTarPerm extractEntry .travis.yml
+33 silly gunzTarPerm extractEntry lib/anova.js
+34 silly gunzTarPerm extractEntry lib/main.js
+35 silly gunzTarPerm extractEntry lib/nonparam.js
+36 silly gunzTarPerm extractEntry lib/regression.js
+37 silly gunzTarPerm extractEntry lib/univariate.js
+38 silly gunzTarPerm extractEntry lib/anova/oneway.js
+39 silly gunzTarPerm extractEntry lib/non-parametrics/mannU.js
+40 silly gunzTarPerm extractEntry test/test_anova.js
+41 silly gunzTarPerm extractEntry test/test_nonparam.js
+42 silly gunzTarPerm extractEntry test/test_regression.js
+43 silly gunzTarPerm extractEntry test/test_univariate.js
+44 silly lockFile 7718cee4-98880-0-1998160774819553-package tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/package
+45 silly lockFile 7718cee4-98880-0-1998160774819553-package tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/package
+46 silly lockFile 854ece71-98880-0-1998160774819553-tmp-tgz tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz
+47 silly lockFile 854ece71-98880-0-1998160774819553-tmp-tgz tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/tmp.tgz
+48 verbose tar pack [ '/root/.npm/jsRegress/0.0.1/package.tgz',
+48 verbose tar pack   '/root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/package' ]
+49 verbose tarball /root/.npm/jsRegress/0.0.1/package.tgz
+50 verbose folder /root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/package
+51 silly lockFile 7718cee4-98880-0-1998160774819553-package tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/package
+52 verbose lock tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/package /root/.npm/7718cee4-98880-0-1998160774819553-package.lock
+53 silly lockFile 2c9e65a7--npm-jsRegress-0-0-1-package-tgz tar:///root/.npm/jsRegress/0.0.1/package.tgz
+54 verbose lock tar:///root/.npm/jsRegress/0.0.1/package.tgz /root/.npm/2c9e65a7--npm-jsRegress-0-0-1-package-tgz.lock
+55 silly lockFile 7718cee4-98880-0-1998160774819553-package tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/package
+56 silly lockFile 7718cee4-98880-0-1998160774819553-package tar:///root/tmp/npm-27713-MCiqOu_o/1384878998880-0.1998160774819553/package
+57 silly lockFile 2c9e65a7--npm-jsRegress-0-0-1-package-tgz tar:///root/.npm/jsRegress/0.0.1/package.tgz
+58 silly lockFile 2c9e65a7--npm-jsRegress-0-0-1-package-tgz tar:///root/.npm/jsRegress/0.0.1/package.tgz
+59 silly lockFile d496d5d2-root-npm-jsRegress-0-0-1-package /root/.npm/jsRegress/0.0.1/package
+60 verbose lock /root/.npm/jsRegress/0.0.1/package /root/.npm/d496d5d2-root-npm-jsRegress-0-0-1-package.lock
+61 silly lockFile d496d5d2-root-npm-jsRegress-0-0-1-package /root/.npm/jsRegress/0.0.1/package
+62 silly lockFile d496d5d2-root-npm-jsRegress-0-0-1-package /root/.npm/jsRegress/0.0.1/package
+63 verbose tar unpack /root/.npm/jsRegress/0.0.1/package.tgz
+64 silly lockFile e1b0ce0f-root-npm-jsRegress-0-0-1-package tar:///root/.npm/jsRegress/0.0.1/package
+65 verbose lock tar:///root/.npm/jsRegress/0.0.1/package /root/.npm/e1b0ce0f-root-npm-jsRegress-0-0-1-package.lock
+66 silly lockFile 2c9e65a7--npm-jsRegress-0-0-1-package-tgz tar:///root/.npm/jsRegress/0.0.1/package.tgz
+67 verbose lock tar:///root/.npm/jsRegress/0.0.1/package.tgz /root/.npm/2c9e65a7--npm-jsRegress-0-0-1-package-tgz.lock
+68 silly gunzTarPerm modes [ '755', '644' ]
+69 silly gunzTarPerm extractEntry package.json
+70 silly gunzTarPerm extractEntry .npmignore
+71 silly gunzTarPerm extractEntry README.md
+72 silly gunzTarPerm extractEntry test.js
+73 silly gunzTarPerm extractEntry .travis.yml
+74 silly gunzTarPerm extractEntry lib/anova.js
+75 silly gunzTarPerm extractEntry lib/main.js
+76 silly gunzTarPerm extractEntry lib/nonparam.js
+77 silly gunzTarPerm extractEntry lib/regression.js
+78 silly gunzTarPerm extractEntry lib/univariate.js
+79 silly gunzTarPerm extractEntry lib/anova/oneway.js
+80 silly gunzTarPerm extractEntry lib/non-parametrics/mannU.js
+81 silly gunzTarPerm extractEntry test/test_anova.js
+82 silly gunzTarPerm extractEntry test/test_nonparam.js
+83 silly gunzTarPerm extractEntry test/test_regression.js
+84 silly gunzTarPerm extractEntry test/test_univariate.js
+85 silly lockFile e1b0ce0f-root-npm-jsRegress-0-0-1-package tar:///root/.npm/jsRegress/0.0.1/package
+86 silly lockFile e1b0ce0f-root-npm-jsRegress-0-0-1-package tar:///root/.npm/jsRegress/0.0.1/package
+87 silly lockFile 2c9e65a7--npm-jsRegress-0-0-1-package-tgz tar:///root/.npm/jsRegress/0.0.1/package.tgz
+88 silly lockFile 2c9e65a7--npm-jsRegress-0-0-1-package-tgz tar:///root/.npm/jsRegress/0.0.1/package.tgz
+89 verbose chmod /root/.npm/jsRegress/0.0.1/package.tgz 644
+90 verbose chown /root/.npm/jsRegress/0.0.1/package.tgz [ 0, 0 ]
+91 silly lockFile 3a52ce78- .
+92 silly lockFile 3a52ce78- .
+93 silly publish { name: 'jsRegress',
+93 silly publish   version: '0.0.1',
+93 silly publish   description: 'Javascript statistical library',
+93 silly publish   main: 'main.js',
+93 silly publish   directories: { test: 'test' },
+93 silly publish   scripts: { test: 'nodeunit test' },
+93 silly publish   repository: { type: 'git', url: 'https://github.com/cjqed/jsRegress.git' },
+93 silly publish   keywords: [ 'statistics', 'regression', 'mean', 'average', 'node' ],
+93 silly publish   author: { name: 'Chris Jones' },
+93 silly publish   license: 'MIT',
+93 silly publish   bugs: { url: 'https://github.com/cjqed/jsRegress/issues' },
+93 silly publish   dependencies: { nodeunit: '', async: '', numeric: '' },
+93 silly publish   readme: '#jsRegress [![Build Status](https://travis-ci.org/cjqed/jsRegress.png?branch=master)](https://travis-ci.org/cjqed/jsRegress)\n\njsRegress is a statistics library for node.js. Still very much under development. All working features tested for accuracy.\n\n`npm install jsRegress`\n\n##Currently working\n* [Univariate statistics](https://github.com/cjqed/jsRegress/wiki/Univariate)\n    * Mean\n    * Standard deviation\n* ANOVA\n    * [Completely randomized design](https://github.com/cjqed/jsRegress/wiki/Anova---Completely-Randomized-Design)\n* Regression\n    * Multiple linear regression\n* Non-parametrics\n    * [Mann-Whitney U](https://github.com/cjqed/jsRegress/wiki/Mann-Whitney-U)\n\n##Planned features\n\n* Univariate statistics\n* Multivariate statistics\n* Regression\n* More ANOVA\n* Non-parametric statistics\n* Categorical Data Analysis\n\n##Why a statistical package in node?\n\nYes, you could get all this and more in R or SAS and yes computing the Mann-Whitney U in SAS will probably be quicker than computing it in a single-threaded node.js instance. However, sometimes you don\'t need the best performance, and sometimes you just want to stay in node. This library is for people running statistical tests as a part of a larger Node.js system. Or it\'s for people that just love javascript (Like I do!)\n',
+93 silly publish   readmeFilename: 'README.md',
+93 silly publish   _id: 'jsRegress@0.0.1',
+93 silly publish   dist: { shasum: 'fd94093bb3e47c9de4868585506e3c31b16ea0b0' },
+93 silly publish   _from: '.' }
+94 verbose url raw jsRegress
+95 verbose url resolving [ 'https://registry.npmjs.org/', './jsRegress' ]
+96 verbose url resolved https://registry.npmjs.org/jsRegress
+97 info trying registry request attempt 1 at 11:36:39
+98 http PUT https://registry.npmjs.org/jsRegress
+99 http 403 https://registry.npmjs.org/jsRegress
+100 info trying registry request attempt 1 at 11:36:40
+101 http PUT https://registry.npmjs.org/jsRegress
+102 http 403 https://registry.npmjs.org/jsRegress
+103 error publish Failed PUT response 403
+104 error Error: forbidden New packages must have all-lowercase names: jsRegress
+104 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:272:14)
+104 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:129:22)
+104 error     at Request.EventEmitter.emit (events.js:98:17)
+104 error     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:873:14)
+104 error     at Request.EventEmitter.emit (events.js:117:20)
+104 error     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:824:12)
+104 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+104 error     at _stream_readable.js:920:16
+104 error     at process._tickCallback (node.js:415:13)
+105 error If you need help, you may report this log at:
+105 error     <http://github.com/isaacs/npm/issues>
+105 error or email it to:
+105 error     <npm-@googlegroups.com>
+106 error System Linux 2.6.32-042stab078.28
+107 error command "/usr/bin/node" "/usr/bin/npm" "publish"
+108 error cwd /root/jsregress
+109 error node -v v0.10.21
+110 error npm -v 1.3.11
+111 verbose exit [ 1, true ]

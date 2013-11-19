@@ -1,5 +1,5 @@
 {
-  "name": "jsRegress",
+  "name": "jsregress",
   "version": "0.0.1",
   "description": "Javascript statistical library",
   "main": "main.js",
