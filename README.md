@@ -11,7 +11,7 @@ jsRegress is a statistics library for node.js. Still very much under development
 * ANOVA
     * [Completely randomized design](https://github.com/cjqed/jsRegress/wiki/Anova---Completely-Randomized-Design)
 * Regression
-    * Multiple linear regression
+    * Multiple linear regression.
 * Non-parametrics
     * [Mann-Whitney U](https://github.com/cjqed/jsRegress/wiki/Mann-Whitney-U)
 

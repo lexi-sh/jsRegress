@@ -11,3 +11,8 @@ exports["std test"] = function(test) {
   test.ok(result - 109.13127 < 0.001, "result is not within the acceptable epsilon");
   test.done();
 };
+
+exports['test div 0'] = function(test) {
+  test.ok([].mean().errors);
+  test.done();
+};
