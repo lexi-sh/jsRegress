@@ -37,5 +37,12 @@ exports['test residuals'] = function(test) {
      });
      test.done();
   });
-  
 };
+
+exports['test DW'] = function(test) {
+  stat.regression([ [745,36,66],[895,37,68],[442,47,64],[440,32,53],[1598,1,101] ], function(regressedObj) {
+     var dw = regressedObj.durbinWatson();
+     test.ok(dw - 2.24 < 0.001);
+     test.done();
+  });
+}
