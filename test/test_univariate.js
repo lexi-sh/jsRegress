@@ -16,3 +16,12 @@ exports['test div 0'] = function(test) {
   test.ok([].mean().errors);
   test.done();
 };
+
+exports['test quantiles'] = function(test) {
+  var stats = [1,2,3,4,5,6,7],
+    qArr = stats.quant();
+  test.ok(2 - qArr[0] < 0.001, "1st quartile should be 2 but is actually " + qArr[0]);
+  test.ok(4 - qArr[1] < 0.001, "2nd quartile should be 4 but is actually " + qArr[1]);
+  test.ok(5 - qArr[2] < 0.001, "3rd quartile should be 5 but is actually " + qArr[2]);
+  test.done();
+}
