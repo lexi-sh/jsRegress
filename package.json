@@ -1,6 +1,6 @@
 {
   "name": "jsregress",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Javascript statistical library",
   "main": "./lib/main.js",
   "directories": {
@@ -28,6 +28,7 @@
   "dependencies": {
    "nodeunit": "",
    "async": "",
-   "numeric": ""
+   "numeric": "",
+   "coffee-script": ""
  }
 }
